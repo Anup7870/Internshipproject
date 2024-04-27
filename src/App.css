@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Inter", sans-serif !important;
+}
+.text-grad{
+    background: linear-gradient( #06286E,#164EC0);
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card_grad{
+  background: rgb(31,128,235);
+background: linear-gradient(56deg, rgba(31,128,235,1) 0%, rgba(34,132,241,1) 17%, rgba(6,28,147,1) 80%, rgba(5,26,145,1) 100%);
+}
+.icon {
+  background-image: linear-gradient(to right, #ffcc00, #ff3300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rotate{
+  
+    transition: transform 0.8s ease; /* Adjust the duration and timing function as needed */
+    transform: rotate(360deg);
+  
+}
